@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 // Components
 import Navbar from './components/Navbar';
@@ -56,7 +56,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className={`min-h-screen flex flex-col ${isDarkMode ? 'dark' : ''}`}>
         <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         
@@ -72,7 +72,7 @@ function App() {
         
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

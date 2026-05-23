@@ -51,7 +51,7 @@ export const statesData = [
     id: "telangana",
     name: "Telangana",
     capital: "Hyderabad",
-    image: "https://images.unsplash.com/photo-1513407030348-c9d4d971559a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://img.sanishtech.com/u/9675bc08e81455236dc790b708968271.jpg",
     famousPlace: "Charminar",
     food: "Hyderabadi Biryani",
     festival: "Bathukamma",
